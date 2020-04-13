@@ -1,4 +1,4 @@
 package domain.estado;
 
-public class Concretado {
+public class Concretado extends EstadoInmueble {
 }
