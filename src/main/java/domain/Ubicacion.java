@@ -7,4 +7,8 @@ public class Ubicacion {
     public double getPrecio() {
         return precio;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

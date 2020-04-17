@@ -13,6 +13,4 @@ public abstract class Inmueble {
     public double precio(){
         return this.ubicacion.getPrecio();
     }
-
-
 }

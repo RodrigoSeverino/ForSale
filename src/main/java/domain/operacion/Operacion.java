@@ -1,6 +1,5 @@
 package domain.operacion;
 
-import domain.Empleado;
 import domain.estado.Abierta;
 import domain.estado.EstadoInmueble;
 import domain.inmuebles.Inmueble;
@@ -15,7 +14,6 @@ public abstract class Operacion {
         this.estadoInmueble = new Abierta();
     }
 
-    public abstract void calcularComisionEmpleado(Empleado empleado);
 
 
 }
